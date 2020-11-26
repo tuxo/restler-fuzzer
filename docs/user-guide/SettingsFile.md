@@ -172,10 +172,10 @@ instead of the default dictionary.
     "per_resource_settings": {
         "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/dnsZones/{zoneName}/{recordType}/{relativeRecordSetName}": {
             "producer_timing_delay": 1,
-            "create_once": 1
+            "create_once": 1,
             "custom_dictionary": "c:\\restler\\custom_dict1.json"
         },
-        "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/dnsZones/{zoneName}" {
+        "/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/dnsZones/{zoneName}": {
             "producer_timing_delay": 5
         }
     },
